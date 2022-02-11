@@ -1,0 +1,219 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TP2_Mastermind
+</name>
+</assembly>
+<members>
+<member name="T:TP2_Mastermind.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:TP2_Mastermind.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:TP2_Mastermind.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:TP2_Mastermind.My.Resources.Resources._03A2180_HIRES_V8_FLAT_LIV__Copy___Copy_">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:TP2_Mastermind.frmStatistiques.AfficherStatistiques">
+ <summary>
+   procédure qui permet de faire afficher les résultats des joueurs
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerTabCombineCachee">
+ <summary>
+ Cette procédure génère le tableau de la combinaison cachée à découvrir 
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerEnTetes">
+ <summary>
+ Cette procédure génère le tableau des en-têtes des 2 tableau des essais 
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerTab_Labels">
+ <summary>
+ Cette procédure génère le tableau des labels de chaque essai
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerTab_ZoneTexte">
+ <summary>
+ Cette procédure génère le tableau 2 dimensions des zones de texte
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerTab_ChkBox">
+ <summary>
+ Cette procédure génère le tableau ddes cases à cocher. 
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerTab_BP">
+ <summary>
+ Cette procédure génère le tableau des zones de BP (Bonnes Places)
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.CreerTab_MP">
+ <summary>
+ Cette procédure génère le tableau des zones de MP (Bons mais Mal Placés)
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.ValiderCaseVide">
+ <summary>
+ Cette procédure valide la présence de case vide dans l'essai 
+ et redonne le focus à la case vide.
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.Case_Click">
+ <summary>
+ Cette procédure Click() permet de comparer les 2 combinaisons (Joueur avec programme)
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.AfficherResultatEssais">
+ <summary>
+ Procédure qui permet d'afficher le résultat des essais
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.AfficherPartiePerdue(System.String)">
+ <summary>
+ Procédure qui permet d'afficher un message au joueur si le nombre d'essai est épuisé.
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.AfficherPartieGagnee(System.String)">
+ <summary>
+ Procédure qui permet d'afficher un message au joueur si la combinaison a été trouvée.
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.AfficherCombineCachee">
+ <summary>
+ Procédure qui permet d'afficher la combinaison à découvrir à la place des ?
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.cmdQuitter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procédure qui permet de quitter le programme
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.DonnerFocusSuivant(System.Int32)">
+ <summary>
+ Procédure qui permet de donner le focus à la zone de texte suivante lors des essais.
+ </summary>
+ <param name="n"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.Valider_Caractere(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ Procédure qui permet de valider le caractère tapé dans la zone des essais
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.GenererTabCombineADecouvrir">
+ <summary>
+ Procédure qui permet de générer la combinaison à découvrir.
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.cmdLancerPartie_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procédure qui permet de lancer une nouvelle partie 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.EnregistrerPartie">
+ <summary>
+ Procédure qui permet d'enregistrer les résultats dans un fichier
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.RedimTabSymboles(System.Char[]@)">
+ <summary>
+ Procédure permettant de redimmensionner les tableaux 
+ </summary>
+ <param name="tabSymb"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.BarrerCTRL(System.Windows.Forms.Control[])">
+ <summary>
+ Procédure permmettamt de barrer les contrôles spécifiés dans le ParcAttry
+ </summary>
+ <param name="ctrl"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.DebarrerCTRL(System.Windows.Forms.Control[])">
+ <summary>
+ Procédure permmettamt de débarrer les contrôles spécifiés dans le ParcAttry
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.DebarrerEssai(System.Int32)">
+ <summary>
+ Procédure permmettamt de débarrer l'essai suivant  
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.BarrerEssai(System.Int32)">
+ <summary>
+ Procédure permmettamt de barrer l'essai en cours  
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.cmdNouvellePartie_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procédure permmettamt de débuter une nouvelle partie  
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.ViderCombine">
+ <summary>
+ Procédure permettant de vider la combine
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.ViderZonesTexte">
+ <summary>
+ Procédure permettant de vider les xones de texte(poinçcon)
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.DecocherChkBox">
+ <summary>
+ Procédure permettant de décocher les checkBox
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.ViderBP">
+ <summary>
+ Procédure permettant de vider la colonne des BP
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.ViderMP">
+ <summary>
+ Procédure permettant de vider la colonne des MP
+ </summary>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.Timer1_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Procédure qui permet d'Afficher le timer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.cmdAfficherStatistiques_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procédure qui permet d'ouvrir la fenêtre des statistiques
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:TP2_Mastermind.frmMastermind.cmdApropos_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procedure qui permet d'ouvrir le formulaire À propos.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
